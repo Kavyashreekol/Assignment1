@@ -11,3 +11,7 @@ def read_root():
 @app.get("/about")
 def about():
     return {"msg": "About Us"}
+
+@app.get("/placement")
+def placement():
+    return {"warning": "No Placement available"}
